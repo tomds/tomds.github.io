@@ -31,12 +31,10 @@
 					<a class="about" href="{{ i.url }}">{{ i.text }}</a><br />
 				{% endfor %}
 				
-				{% if site.about %}
 				<div id="about">
 					<strong>about</strong><br />
-					{{ site.about }}
+					Django/JavaScript developer living in York, UK. Currently working at <a href="http://isotoma.com" target="_blank">Isotoma</a>.
 				</div>
-				{% endif %}
 			</div>
 
 			<div class="col-sm-8 col-offset-1">
@@ -46,7 +44,7 @@
 				<footer>
 					&copy; {{ site.name }}
 					{% if site.github %} 
-						- <a href="{{ site.github }}">{{ site.github }}</a>
+						- <a href="{{ site.github }}" target="_blank">{{ site.github }}</a>
 					{% endif %}
 				</footer>
 			</div>

@@ -46,6 +46,7 @@ h3 {
 a, a:link, a:active {
     text-decoration: none;
     color: #8C8C8C;
+    font-weight: bold;
 }
 
 a:hover {
