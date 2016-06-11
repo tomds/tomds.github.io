@@ -1,8 +1,19 @@
-name: Tom de Simone
-markdown: redcarpet
-highlighter: pygments
-github: https://github.com/tomds
-urls:
-    - text: github
-      url: https://github.com/tomds
-baseurl: ''
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Tom de Simone
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Web developer from York, UK
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://tomds.github.io" # the base hostname & protocol for your site
+twitter_username: MrTomDS
+github_username:  tomds
+
+# Build settings
+markdown: kramdown
