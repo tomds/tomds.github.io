@@ -3,12 +3,19 @@
     text-align: center;
 
     figure {
+        position: relative;
         display: inline-block;
         overflow: hidden;
         width: 203px;
         height: 110px;
         margin-bottom: 6px;
         margin-right: 6px;
+    }
+
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
     }
 
     figcaption {
@@ -22,5 +29,6 @@
     @include media-query(930px) {
         overflow-x: scroll;
         white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
     }
 }
