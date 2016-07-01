@@ -1,0 +1,26 @@
+.gallery {
+    margin-bottom: 15px;
+    text-align: center;
+
+    figure {
+        display: inline-block;
+        overflow: hidden;
+        width: 203px;
+        height: 110px;
+        margin-bottom: 6px;
+        margin-right: 6px;
+    }
+
+    figcaption {
+        display: none;
+    }
+
+    .photo-moon {
+        margin-top: -13px;
+    }
+
+    @include media-query(930px) {
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
+}
