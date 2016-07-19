@@ -22,6 +22,11 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
                 continue;
             }
 
+            // include only figure elements
+            if (figureEl.tagName.toUpperCase() !== 'FIGURE') {
+                continue;
+            }
+
             linkEl = figureEl.children[0]; // <a> element
 
             size = linkEl.getAttribute('data-size').split('x');
@@ -81,14 +86,20 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
             index;
 
         for (var i = 0; i < numChildNodes; i++) {
-            if(childNodes[i].nodeType !== 1) { 
-                continue; 
+            if(childNodes[i].nodeType !== 1) {
+                continue;
+            }
+
+            if(childNodes[i].tagName.toUpperCase() !== 'FIGURE') {
+                continue;
             }
 
             if(childNodes[i] === clickedListItem) {
                 index = nodeIndex;
                 break;
             }
+
+
             nodeIndex++;
         }
 
@@ -201,6 +212,3 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
         openPhotoSwipe( hashData.pid ,  galleryElements[ hashData.gid - 1 ], true, true );
     }
 };
-
-// execute above function
-initPhotoSwipeFromDOM('.gallery');

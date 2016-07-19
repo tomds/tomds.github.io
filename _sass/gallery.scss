@@ -19,10 +19,6 @@
         border: none;
     }
 
-    figcaption {
-        display: none;
-    }
-
     .photo-moon {
         margin-top: -13px;
     }
@@ -32,4 +28,8 @@
         white-space: nowrap;
         -webkit-overflow-scrolling: touch;
     }
+}
+
+.hide-captions figcaption {
+    display: none;
 }
