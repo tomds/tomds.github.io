@@ -9,9 +9,9 @@
 title: Tom de Simone
 email: hello@tomds.co.uk
 description: > # this means to ignore newlines until "baseurl:"
-  Web developer from York, UK
+  JavaScript/Django web developer from York, UK
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://tomds.github.io" # the base hostname & protocol for your site
+url: "http://www.tomds.co.uk" # the base hostname & protocol for your site
 twitter_username: MrTomDS
 github_username:  tomds
 linkedin_identifier: tom-de-simone
