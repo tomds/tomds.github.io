@@ -7,7 +7,7 @@
 
 # Site settings
 title: Tom de Simone
-email: your-email@domain.com
+email: hello@tomds.co.uk
 description: > # this means to ignore newlines until "baseurl:"
   Web developer from York, UK
 baseurl: "" # the subpath of your site, e.g. /blog
