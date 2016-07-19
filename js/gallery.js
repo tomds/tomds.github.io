@@ -64,7 +64,6 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
     // triggers when user clicks on thumbnail
     var onThumbnailsClick = function(e) {
         e = e || window.event;
-        e.preventDefault ? e.preventDefault() : e.returnValue = false;
 
         var eTarget = e.target || e.srcElement;
 
@@ -96,6 +95,7 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 
             if(childNodes[i] === clickedListItem) {
                 index = nodeIndex;
+                e.preventDefault ? e.preventDefault() : e.returnValue = false;
                 break;
             }
 
@@ -103,13 +103,10 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
             nodeIndex++;
         }
 
-
-
         if(index >= 0) {
             // open PhotoSwipe if valid index found
             openPhotoSwipe( index, clickedGallery );
         }
-        return false;
     };
 
     // parse picture index and gallery index from URL (#&pid=1&gid=2)
