@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Using a solar-powered Raspberry Pi to monitor greenhouse temperature"
+title: "Using a solar-powered Raspberry Pi to monitor greenhouse temperature"
+excerpt: "My adventure with a greenhouse, a Raspberry Pi, a 12V battery and a solar panel."
 date:   2016-07-19 17:01:06 +0100
 ---
 <div id="gallery" class="hide-captions" itemscope itemtype="http://schema.org/ImageGallery">
@@ -22,7 +23,7 @@ date:   2016-07-19 17:01:06 +0100
         <figcaption itemprop="caption description">Temperature graph</figcaption>
     </figure>
 
-    <p>This worked well and I started to get some lovely graphs, but there was a small problem in that I had to turn off the Pi in order to recharge the phone charger when it ran out of power. I ended up alternating between the phone charger and a 12V sealed lead-acid battery that I happened to have (with a <a href="https://www.amazon.co.uk/dp/B00AAT3SVE/" target="_blank">cigarette socket adaptor</a> with 5V USB ports), so that I could at least charge one battery while powering the Pi with the other one. Using a <a href="https://www.amazon.co.uk/dp/B01D19VXCU/" target="_blank">USB ammeter</a>, I estimated that the Pi uses around 0.25A on average, so my 20Ah portable phone charger would last roughly 20 / 0.25 = 80 hours, or around 3 days. The 12V battery is rated at 17Ah, but you're not really supposed to drain sealed lead-acid batteries below 50%, so taking 8.5Ah as the 12V capacity, the equivalent 5V capacity would be (8.5 * 12) / 5 = 20.4 Ah, so basically the same as the phone charger i.e. 3 days. In reality, the phone charger lasted just over 2 days, so obviously there were other factors to take into account e.g. efficiency and the actual capacity being slightly lower than stated.</p>
+    <p>This worked well and I started to get some lovely graphs, but there was a small problem in that I had to turn off the Pi in order to recharge the phone charger when it ran out of power. I ended up alternating between the phone charger and a 12V sealed lead-acid battery that I happened to have (combined with a <a href="https://www.amazon.co.uk/dp/B00AAT3SVE/" target="_blank">cigarette socket adaptor</a> that had 5V USB ports), so that I could at least charge one battery while powering the Pi with the other one. Using a <a href="https://www.amazon.co.uk/dp/B01D19VXCU/" target="_blank">USB ammeter</a>, I estimated that the Pi uses around 0.25A on average, so my 20Ah portable phone charger would last roughly 20 / 0.25 = 80 hours, or around 3 days. The 12V battery is rated at 17Ah, but you're not really supposed to drain sealed lead-acid batteries below 50%, so taking 8.5Ah as the 12V capacity, the equivalent 5V capacity would be (8.5 * 12) / 5 = 20.4 Ah, so basically the same as the phone charger i.e. 3 days. In reality, the phone charger lasted just over 2 days, so obviously there were other factors to take into account e.g. efficiency and the actual capacity being slightly lower than stated.</p>
 
     <p>So I would have to swap the batteries over no more than once every couple of days, but this still didn't quite satisfy my nerd urges; ideally I would just leave the Pi in the greenhouse and never have to touch it at all! So I ended up buying... a solar panel and solar charge controller from <a href="http://www.photonicuniverse.com/" target="_blank">Photonic Universe</a> to charge the 12V battery!</p>
 
