@@ -28,6 +28,12 @@
             {% include icon-linkedin.html identifier=site.linkedin_identifier %}
           </li>
           {% endif %}
+
+          {% if site.email %}
+          <li>
+            {% include icon-email.html email=site.email %}
+          </li>
+          {% endif %}
         </ul>
       </div>
 
