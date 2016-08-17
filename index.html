@@ -3,13 +3,26 @@ layout: default
 title: JavaScript/Django web developer
 ---
 
-<div class="home">
+  <div class="home">
 
-  <h1 class="page-heading">Welcome</h1>
+  <h1>Welcome</h1>
 
   <div>
     <p>My name is Tom de Simone and I'm a web developer, specialising in JavaScript (front and back end). I am also partial to a bit of <a href="http://djangoproject.com" target="_blank">Django</a>.</p>
     <p>In my spare time I enjoy coding, stargazing, gardening and learning foreign languages.</p>
+  </div>
+
+  <div id="last-blog-post">
+    <h2>Latest blog post</h2>
+    <div class="post">
+      <span class="post-meta">{{ site.posts.first.date | date: "%-d %B %Y" }}</span>
+
+      <h3>
+        <a href="{{ site.posts.first.url | prepend: site.baseurl }}">{{ site.posts.first.title }}</a>
+      </h3>
+    </div>
+
+    <a href="/blog.html">More blog posts</a>
   </div>
 
 </div>
