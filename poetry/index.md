@@ -3,4 +3,4 @@ layout: page
 title: Poetry
 permalink: /poetry/
 ---
-- [Cheer Up](/poetry/cheer-up/)
+- [Cheer Up]({% link poetry/cheer-up.md %})
