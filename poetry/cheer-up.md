@@ -14,11 +14,10 @@ It's just the Amazon burning
 It's just the permafrost melting  
 It's just the insects dying out  
 It's just sea levels rising  
-And cities running out of water  
 No cause for alarm  
 
 And so I carry on  
-Go back to my job  
+I go to work  
 Spend time with the kids  
 While in the corner of my mind  
 I see an asteroid coming for us  
@@ -30,7 +29,7 @@ It's coming for us all
 And we're very concerned  
 But somehow also not concerned  
 We're all too busy with our lives  
-No reason to panic  
+No need to panic  
 It's only the final days of civilisation.
 
 &nbsp;  
