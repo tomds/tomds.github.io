@@ -11,7 +11,7 @@ And gaze at the fire, entranced by the flames
 A million miles from sordid mind games  
 
 But outside they’re busy rewriting the rules  
-Not putting out fires but adding more fuel  
+Not putting out fires but pouring on fuel  
 If you care you’re a traitor, if you hate you’re a saint  
 Well I’ve news for you buddy: you bloody well ain’t  
 Forget your false profits, hollow gestures be damned  
