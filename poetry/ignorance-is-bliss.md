@@ -14,8 +14,6 @@ But outside they’re busy rewriting the rules
 Not putting out fires but pouring on fuel  
 If you care you’re a traitor, if you hate you’re a saint  
 Well I’ve news for you buddy: you bloody well ain’t  
-Forget your false profits, hollow gestures be damned  
-What you think is newsworthy ain’t fit for the stand  
 
 Take a look out the window, breathe the ash-laden air  
 Wake up, smell the coffee… while it’s still there  
