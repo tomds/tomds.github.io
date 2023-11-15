@@ -1,28 +1,131 @@
----
-layout: default
-title: JavaScript/Django web developer
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
 
-  <div class="home">
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Freelance web developer: Tom de Simone</title>
+  <meta name="description" content="Freelance full-stack web developer skilled in React, Django, Flask and more.">
+  <meta name="author" content="Tom de Simone">
+  <link rel="canonical" href="http://www.tomds.co.uk/">
 
-  <h1>Welcome</h1>
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <div>
-    <p>My name is Tom de Simone and I'm a web developer, specialising in JavaScript (front and back end). I am also partial to a bit of <a href="http://djangoproject.com" target="_blank">Django</a>.</p>
-    <p>In my spare time I enjoy coding, stargazing, gardening and learning foreign languages.</p>
-  </div>
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
 
-  <div id="last-blog-post">
-    <h2>Latest blog post</h2>
-    <div class="post">
-      <span class="post-meta">{{ site.posts.first.date | date: "%-d %B %Y" }}</span>
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
 
-      <h3>
-        <a href="{{ site.posts.first.url | prepend: site.baseurl }}">{{ site.posts.first.title }}</a>
-      </h3>
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+</head>
+<body>
+
+    <nav>
+      <div class="container">
+        <div class="row">
+          <div class="columns nine">Tom de Simone</div>
+          <div class="columns three"><a href="mailto:hello@tomds.uk?subject=Web development enquiry">hello@tomds.uk</a></div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="banner yellow">
+      <div class="container">
+        <div class="row">
+          <div class="column two-thirds intro">
+            <p>Hi! I'm Tom and I'm a</p>
+            <p class="headline">FREELANCE WEB DEVELOPER</p>
+            <p>based in York, UK</p>
+            <p><a href="mailto:hello@tomds.uk?subject=Web development enquiry" class="button button-primary"><strong>Hire me!</strong></a></p>
+          </div>
+          <div class="column one-third profile-holder">
+            <img
+              class="profile-image"
+              srcset="img/small/tom_profile_pic.jpg 194w, img/large/tom_profile_pic.jpg 323w"
+              sizes="(max-width: 550px) 194px, 323px"
+              src="img/small/tom_profile_pic.jpg"
+              alt="Profile pic of freelance web developer Tom de Simone">
+          </div>
+        </div>
+      </div>
     </div>
 
-    <a href="/blog.html">More blog posts</a>
-  </div>
+    <div class="banner">
+      <div class="container">
+        <div class="row">
+          <h4>About me</h4>
+          <p>I have been a professional full-stack web developer since 2007. I make high quality, feature-rich websites and webapps using technologies like React, Django and Node.js, among others. I am equally comfortable doing front-end and back-end development. The more complex the functionality, the better!</p>
+          <p>I have been involved in all stages of the project life cycle from design through to deployment and ongoing support. I have experience of hosting websites on both cloud infrastructure and self-hosted VMs.</p>
 
-</div>
+          <p><strong>Programming languages: </strong>Python, Javascript</p>
+          <p><strong>Technologies: </strong>React, jQuery, Django, Node.js, Flask, Postgres, MySQL, Docker, Heroku, AWS</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="banner gray">
+      <div class="container">
+        <h4>My work</h4>
+        <div class="row">
+          <div class="column one-third showcase">
+            <a href="https://localfootprint.uk/"><img
+              class="showcase-image"
+              src="img/small/laca.png">
+              Local Authority Consumption Accounts</a>
+          </div>
+          <div class="column one-third showcase">
+            <a href="https://speakcarbon.earth/"><img
+              class="showcase-image"
+              src="img/small/scc.png">
+              Speak Carbon Collective</a>
+            </div>
+          <div class="column one-third showcase">
+            <a href="https://retrofitplusarchitecture.co.uk/"><img
+              class="showcase-image"
+              src="img/small/rpa.png">
+              Retrofit Plus Architecture</a>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="banner">
+      <div class="container">
+        <div class="row">
+          <h4>Sustainability</h4>
+          <p>As well as being a web developer, I am highly passionate about taking action to tackle climate change. I am a Director and part-time employee of <a href="https://yorkcommunityenergy.org.uk/">York Community Energy</a> and also a qualified Carbon Literacy Trainer working with <a href="https://speakcarbon.earth/">Speak Carbon Collective</a>.</p>
+
+          <p>Naturally, I care about the climate impacts of everything I do, including web development. I take a minimalistic design approach and optimise my code as much as possible to reduce the amount of computing power required to run my websites. This translates into reduced energy usage and thus lower emissions. So if you want a website with great green credentials, I'm your dev!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer gray">
+      <div class="container">
+        <div class="row">
+          <div class="columns eight">
+            <p>&copy; 2023 Tom de Simone &middot; <a href="mailto:hello@tomds.uk">Contact</a></p>
+          </div>
+          <div class="columns four">
+            <a class="social-link" href="https://www.linkedin.com/in/tom-de-simone/"><img src="img/linkedin.svg" alt="LinkedIn logo" title="LinkedIn"></a>
+            <a class="social-link" href="https://github.com/tomds"><img src="img/github.svg" alt="GitHub logo" title="GitHub"></a>
+            <a class="social-link" href="https://twitter.com/MrTomDS"><img src="img/x.svg" alt="X logo" title="X (formerly Twitter)"></a>
+            <a class="social-link" href="https://soundcloud.com/xeelix"><img src="img/soundcloud.svg" alt="Soundcloud logo" title="Soundcloud"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</body>
+</html>
