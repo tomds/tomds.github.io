@@ -16,6 +16,11 @@ nav .container {
   padding-bottom: 10px;
 }
 
+.home-nav-link {
+  color: #222;
+  text-decoration: none;
+}
+
 .profile-image {
   border-radius: 50%;
 }
@@ -41,6 +46,11 @@ nav .container {
 
 .gray {
   background-color: #eeeeee;
+}
+
+.my-work-subtitle {
+  font-size: 0.8em;
+  color: #666;
 }
 
 .button.button-primary,
@@ -73,5 +83,16 @@ nav .container {
 @media (max-width: 549px) {
   .showcase {
     margin-bottom: 35px;
+  }
+}
+
+.screenshot {
+  max-width: 650px;
+  border: 1px solid #ccc;
+}
+
+@media (max-width: 780px) {
+  .screenshot {
+    max-width: 100%;
   }
 }

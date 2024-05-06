@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="banner">
+    <div class="container">
+        <div class="row">
+            <div class="my-work-subtitle">My work /</div>
+            <h4>{{ page.title }}</h4>
+
+                <img class="screenshot" src="/assets/img/large/{{ page.screenshot }}" alt="Website screenshot">
+            </div>
+
+            <p>
+                {% if page.technologies %}<strong>Technologies:</strong> {{ page.technologies }}<br>{% endif %}
+                {% if page.languages %}<strong>Languages:</strong> {{ page.languages }}<br>{% endif %}
+                {% if page.visit_url %}<strong>Visit site:</strong> <a href="{{ page.visit_url}}" target="_blank">{{ page.visit_url }}</a>{% endif %}
+            </p>
+
+            <div>
+                {{ content }}
+            </div>
+        </div>
+    </div>
+</div>

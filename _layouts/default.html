@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>{% if page.title %}{{ page.title }} - {% endif %}Freelance web developer: Tom de Simone</title>
+  <meta name="description" content="Freelance full-stack web developer skilled in React, Django, Flask and more.">
+  <meta name="author" content="Tom de Simone">
+  <link rel="canonical" href="http://www.tomds.co.uk/">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="/assets/css/normalize.css">
+  <link rel="stylesheet" href="/assets/css/skeleton.css">
+  <link rel="stylesheet" href="/assets/css/custom.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+</head>
+<body>
+
+    <nav {% if page.title %}class="yellow"{% endif %}>
+      <div class="container">
+        <div class="row">
+          <div class="columns nine"><a href="/" class="home-nav-link">Tom de Simone</a></div>
+          <div class="columns three"><a href="mailto:hello@tomds.uk?subject=Web development enquiry">hello@tomds.uk</a></div>
+        </div>
+      </div>
+    </nav>
+
+    {{ content }}
+
+    <div class="footer gray">
+      <div class="container">
+        <div class="row">
+          <div class="columns eight">
+            <p>&copy; 2023 Tom de Simone &middot; <a href="mailto:hello@tomds.uk">Contact</a></p>
+          </div>
+          <div class="columns four">
+            <a class="social-link" href="https://www.linkedin.com/in/tom-de-simone/"><img src="/assets/img/linkedin.svg" alt="LinkedIn logo" title="LinkedIn"></a>
+            <a class="social-link" href="https://github.com/tomds"><img src="/assets/img/github.svg" alt="GitHub logo" title="GitHub"></a>
+            <a class="social-link" href="https://twitter.com/MrTomDS"><img src="/assets/img/x.svg" alt="X logo" title="X (formerly Twitter)"></a>
+            <a class="social-link" href="https://soundcloud.com/xeelix"><img src="/assets/img/soundcloud.svg" alt="Soundcloud logo" title="Soundcloud"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</body>
+</html>
