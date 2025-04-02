@@ -6,6 +6,15 @@ p {
   margin-bottom: 1rem;
 }
 
+blockquote {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+blockquote.small {
+  font-size: 1.7rem;
+}
+
 .row {
   padding: 20px 0 10px 0;
 }
@@ -69,11 +78,12 @@ nav .container {
 
 .showcase {
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .showcase-image {
   width: 100%;
-  border: 1px solid #ddd;
+  border: 1px solid #cacaca;
 }
 
 .social-link img {
